@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widhth, initial-scale=1.0">
+     <link rel="stylesheet" href="style2.css">
+    <title>temp conv</title>
+</head>
+<body>
+    <form id="tempCalc" onsubmit="calculateTemp(); return false">
+        
+    <lable for="temp" > <h2>TEMPERATURE <span>CONVERTER</span></h2></lable>
+    <br />
+    <input type="number" name="temp" id="temp">
+
+    <select name="temp_diff" id="temp_diff">
+        <option value="cel">°Celsius</option>
+        <option value="fah">°Fahrenheit</option>
+    </select> <br/>
+
+    <input type="submit" name="temp"><br/>
+    <span id="resultContainer"></span>
+    </form>
+    <script src="script2.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+body {
+    
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    background-size: cover;
+    place-items: center;
+    background-image:url("thermometer-hot.jpg") ;
+}
+
+form {
+    background-color: #aad6c2ee;
+    padding: 80px;
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    -webkit-box-shadow: 0 10px 6px -6px  rgb(34, 151, 147);
+    -moz-box-shadow: 0 10px 6px -6px  rgb(55, 101, 97);
+    box-shadow: 0 10px 6px -6px rgb(17, 75, 66);
+}
+
+#tempCalc label
+{
+  font-size: 30px;
+  
+}
+
+
+
+#temp
+{
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px rgb(35, 37, 161);
+}
+#temp_diff
+{
+    border: none;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 20px;
+    vertical-align: top;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px rgb(167, 233, 220);
+}
+
+[type="submit"]
+{
+    height: 35px;
+    cursor: pointer;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    box-shadow: 0 10px 6px -6px rgb(49, 31, 31);
+    
+}
+[type="submit"]:hover{
+    transform: scale(1.1);
+    transition-duration: .7s;
+    opacity: .8;
+}
+
+#resultContainer
+{
+  font-size: 30px;
+}
+
